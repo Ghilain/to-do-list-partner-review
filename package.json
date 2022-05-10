@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ghilain/To-Do-list.git"
+    "url": "git+https://github.com/Ghilain/to-do-list-partner-review.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ghilain/To-Do-list/issue"
+    "url": "https://github.com/Ghilain/to-do-list-partner-review/issue"
   },
-  "homepage": "https://Ghilain.github.io/To-Do-list/",
+  "homepage": "https://Ghilain.github.io/to-do-list-partner-review/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
