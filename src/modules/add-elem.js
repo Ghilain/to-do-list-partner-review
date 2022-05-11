@@ -2,7 +2,7 @@
 const addElem = (elem, classes, parent) => {
   const createdElem = document.createElement(elem);
   if (classes !== undefined) {
-    classes.forEach((cl) => createdElem.classList.add(cl));
+    classes.forEach((classElement) => createdElem.classList.add(classElement));
   }
   parent.appendChild(createdElem);
 

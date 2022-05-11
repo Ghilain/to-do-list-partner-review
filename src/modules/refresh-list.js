@@ -1,5 +1,4 @@
 import addElem from './add-elem.js';
-import Task from './class-task.js';
 
 const refreshList = (_class, _container) => {
   _container.innerHTML = '';
@@ -20,8 +19,6 @@ const refreshList = (_class, _container) => {
     listText.value = e.description;
     const listIconDots = addElem('i', ['fa-solid', 'fa-ellipsis-vertical', 'fa-lg', 'font-awesome-icon'], todoList);
     const removeBtn = addElem('button', ['remove-button', 'hide'], todoList);
-    const listIconTrash = addElem('i', ['fa-solid', 'fa-trash-can', 'fa-lg', 'font-awesome-icon'], removeBtn);
-
     const elemID = e.id;
 
     document.body.addEventListener('click', () => {
